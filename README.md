@@ -1,3 +1,3 @@
 # megh2000.github.io
 
-Coffe-Junkie simple website built using HTML.
+Coffe-Junkie is a simple website built using HTML.
