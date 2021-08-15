@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html{
+    font-family: "monserrrat", sans-serif;
+    font-size: 10px;
+}
+
+body{
+    background-color: #DBE2E9;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.container{
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 61px 7px #5e849c40;
+    padding: 50px 20px;
+    border-radius: 20px;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.header h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+form{
+    margin-top: 10px;
+    width: 80%;
+    max-width: 300px;
+    position: relative;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgba(128,128,128,0.479);
+    font-size: 20px;
+    width: 100%;
+    outline: None;
+    color: gray;
+    background-color: transparent;
+}
+
+input::placeholder{
+    opacity: 0.5;
+    color: gray;
+    font-family: "Montserrat";
+}
+
+form ion-icon {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    opacity: 0.5;
+    color: gray;
+  }
+
+  .gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 50px;
+    grid-gap: 20px;
+  }
+
+
+.item {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: 0.3s ease box-shadow;
+  }
+  
+  .item:hover {
+    box-shadow: 0px 0px 20px 3px #00000042;
+  }
+  .item:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  .item h3 {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: #00000040;
+    color: aliceblue;
+    bottom: -70px;
+    font-weight: 300;
+    transition: 0.5s ease-in-out bottom;
+  }
+  .item:hover h3 {
+    bottom: 0;
+  }
+  @media only screen and (min-width: 900px) {
+    .container {
+      max-width: 1160px;
+      padding: 100px;
+    }
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .header h1 {
+      font-size: 50px;
+    }
+    .header input {
+      font-size: 24px;
+    }
+    .header ion-icon {
+      font-size: 24px;
+    }
+    .gallery {
+      grid-gap: 30px;
+    }
+  }
+  
+  /* ********************* */
+  /* This Code is for only the floating card in right bottom corner */
+  /* ********************** */
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .float-text {
+    display: inline-block;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: fit-content;
+    background-color: #192227;
+    color: whitesmoke;
+    font-family: "Montserrat";
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .float-card-info {
+    width: 300px;
+    position: fixed;
+    background-color: #263238;
+    border: 2px solid white;
+    overflow: hidden;
+    bottom: 5px;
+    right: -100%;
+    padding: 30px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out right;
+  }
+  .float-card-info p {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
+    text-transform: capitalize;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .gg-youtube {
+    --ggs: 1.5;
+  }
+  .float-card-info .icons {
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .float-card-info .icons a {
+    display: inline-block;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  .float-card-info .icons a:hover {
+    color: rgb(127, 127, 129);
+  }
+  .float-card-info .link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Montserrat";
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .gg-close-r {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .float-card-info.active {
+    right: 5px;
+    bottom: 5px;
+  }
+  
+  .float-card-info .hire {
+    background-color: #181e22;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    border-radius: 6px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
