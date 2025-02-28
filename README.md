@@ -1,7 +1,5 @@
 #  📌 Photo Gallery Website
 
-![Website Preview](https://meghasv09.github.io/megh2000.github.io/)  
-
 This is a simple website that I built, featuring my own photography and a clean design.  
 
 ## 🔗 Live Website  
