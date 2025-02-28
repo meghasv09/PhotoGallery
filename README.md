@@ -1,22 +1,22 @@
-#  📌 Photo Gallery Website
+##  📌 Photo Gallery Website
 
 This is a simple website that I built, featuring my own photography and a clean design.  
 
-## 🔗 Live Website  
-Visit: [meghasv09.github.io](https://meghasv09.github.io/megh2000.github.io/)  
+### 🔗 Live Website  
+Visit: [meghasv09.github.io](https://meghasv09.github.io/PhotoGallery/)  
 
-## 🛠 Tech Stack  
+### 🛠 Tech Stack  
 - **HTML**  
 - **CSS**  
 
 ## 📸 Photography  
 All the images featured on this website were clicked by me.  
 
-## 🚀 Future Enhancements  
+### 🚀 Future Enhancements  
 - [ ] Improve responsiveness  
 - [ ] Add interactive elements  
 
-## 📩 Contact  
+### 📩 Contact  
 Feel free to connect or share feedback!  
 
 - 🔗 **[LinkedIn](https://www.linkedin.com/in/megha-somaradder-06457b17b/)**  
